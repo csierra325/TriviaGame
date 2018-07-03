@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <Link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <Link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <h1>Friend's Trivia Game!</h1>
+
+    <div class="time">Time Remaining: </div>
+
+    <div class="scoreHolder">
+        <p class="correct"> Correct Answers:</p>
+        <p class = "incorrect"> Incorrect Answers: </p>
+    </div>
+
+
+    <div class="border">
+
+
+
+        <div class="question">Questions: </div>
+
+
+        <!-- <div class="question1">1. "How many babies did Phoebe carry for her brother?"</div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer1" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">1</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer1" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer1" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer1" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">4</label>
+        </div>
+
+        <div class="question1">2. "Who marries Chandler and Monica?"</div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer2" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Phoebe</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer2" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Ross</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer2" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Joey</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer2" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Rachel</label>
+        </div>
+        <div class="question1">3. "What does Phoebe change her name too?"</div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer3" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Princess Consuela Banana-Hammoc</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer3" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Crap Bag</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer3" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Smelly Cat</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer3" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Buffay</label>
+        </div>
+        <div class="question1">4. "What is 'the giant poking device' made from?"</div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer4" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Pvc Pipe</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer4" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Rope</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer4" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Pencils</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer4" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Chopsticks</label>
+        </div>
+        <div class="question1">5. "What type of animal is 'Hugsy'?"</div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer5" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Elephant</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer5" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Penguin</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer5" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Cat</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer5" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Dog</label>
+        </div>
+        <div class="question1">6. "Who was 'The Holiday Armadillo'?"</div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer6" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Jack</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer6" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Monica</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer6" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Ross</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer6" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Joey</label>
+        </div>
+        <div class="question1">7. "What is Chandler's mother's job?"</div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer7" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Erotic Novelist</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer7" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Las Vegas Drag Performer</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer7" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Relationship Therapist</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer7" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Doctor</label>
+        </div>
+        <div class="question1">8. "What is the name of Joey's agent?"</div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer8
+            " id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Estelle</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer8
+            " id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Bertha</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer8" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Esther</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer8" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Eunice</label>
+        </div>
+        <div class="question1">9. "Why is Ross suspended from his job at the museum?"</div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer9" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Changing a students grade because the student was in love with him</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer9" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Dating an student</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer9" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Sleeping with Rachel in the museum</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer9" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">becomes angry with his boss when he eats his sandwich</label>
+        </div>
+        <div class="question1">10. "What Friend was famously overweight as a child?"</div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer10" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Ross</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer10" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Monica</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer10" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Phoebe</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="answer10" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Rachel</label> -->
+        <!-- </div> -->
+
+
+
+    </div>
+
+    <button type="button" id="submit" class="btn btn-secondary">Submit</button>
+
+    <script>
+    </script>
+
+
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>

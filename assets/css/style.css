@@ -1,0 +1,107 @@
+
+h1 {
+text-align: center;
+background-color: darkslategray;
+color: white;
+font-weight: bold;
+font-size: 3em;
+
+}
+
+button {
+    margin-left:30%;
+    width: 40%;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+#submit{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.scoreHolder{
+    color:white;
+    text-align: center;
+    background-color:lightslategray;
+    font-weight: bold;
+    width: 20%;
+    margin-left: 40%;
+    font-size: 1.5em;
+}
+
+.question1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.question{
+    font-weight: bold;
+    font-size: 2em;
+    margin: 2%;
+}
+.background{
+    background: darkslategray;
+    opacity: 0.9;
+    color: white;
+    text-align:center;
+    padding: 3%;
+    width: 20%;
+    
+    margin-left: 40%;
+    margin-top: 20%;
+}
+
+
+.cover{
+    background: darkslategray;
+    opacity: 0.9;
+    color: white;
+    text-align:center;
+    padding: 3%;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 20%; 
+}
+
+body{
+    background-image: url(../images/friendstwo.jpg);
+    background-size: 100%;
+}
+
+.border{
+    background-color: lightslategray;
+    opacity: 0.9;
+    text-align: center;
+    margin-left:30%;
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.time{
+    color:white;
+    text-align: center;
+    background-color:lightslategray;
+    font-weight: bold;
+    width: 20%;
+    margin-left: 40%;
+    font-size: 2em;
+   
+    
+}
+
+.score{
+    color: white;
+    font-weight: bold;
+}
+
+.form-check-label{
+    padding: 1em;
+
+}
+
+.btn-secondary{
+
+    text-align: center
+    
+}
+
